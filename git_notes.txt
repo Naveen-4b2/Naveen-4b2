@@ -1,0 +1,33 @@
+user name :Naveen-4b2
+user mail  : namburinaveen4b2@gmail.com
+
+/******** for initialization ********/
+git init      		--> for configuring the folder into master 
+git --version 		--> To check the git bash version
+git status    		--> To check the weather you r in which branch
+git checkout master 	--> To change the branch, to move to next branch
+
+/******* for configuration **********/
+git config --global user.name "USERNAME"
+git config --global user.email 
+git config --global --list
+
+/****** Procedure **********/
+git add filepath --> It will add only one file
+
+git add . --> It will add all files in the folder to repository
+
+...git push -u origin master --> pushing all files into server
+if it is not working means we have to add branch link of the master
+git remote add origin "branch link"
+
+After adding the link
+1)for pushing to the server --->git push -u origin master / git push origin master
+2)from pulling from server  --->git pull origin master
+3)git status --> To check weather you are in which branch
+4)for deleting the file --> git rm filename
+
+After the changes in the files we have to commit to the server
+
+
+
